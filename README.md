@@ -54,4 +54,28 @@ The best-performing model was saved for potential future use.
 
 ## 🛠 Tech Stack / Tools Used
 
-- Python
+- Python  
+- Pandas, NumPy  
+- Scikit-learn  
+- XGBoost  
+- imbalanced-learn (SMOTE)  
+- Matplotlib, Seaborn  
+- Jupyter Notebook  
+
+---
+
+## 📈 Results
+
+| Model                  | Accuracy | Precision | Recall | F1 Score | ROC AUC |
+|------------------------|----------|-----------|--------|----------|---------|
+| XGBoost Classifier     | 0.999    | 0.999     | 0.999  | 0.999    | 0.999   |
+| Logistic Regression    | 0.947    | 0.949     | 0.947  | 0.947    | 0.987   |
+| Decision Tree          | 0.998    | 0.998     | 0.998  | 0.998    | 0.998   |
+| Random Forest          | 0.999    | 0.999     | 0.999  | 0.999    | 0.999   |
+| Gradient Boosting      | 0.999    | 0.999     | 0.999  | 0.999    | 0.999   |
+| Support Vector Machine | 0.988    | 0.988     | 0.988  | 0.988    | 0.997   |
+| K-Nearest Neighbors    | 0.996    | 0.996     | 0.996  | 0.996    | 0.999   |
+
+---
+
+✅ **Best Model: XGBoost Classifier**
