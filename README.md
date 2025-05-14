@@ -28,7 +28,6 @@ Trained and compared several machine learning models:
 - Decision Tree  
 - Random Forest  
 - Gradient Boosting  
-- Support Vector Machine (SVM)  
 - K-Nearest Neighbors (KNN)  
 
 ---
@@ -66,15 +65,14 @@ The best-performing model was saved for potential future use.
 
 ## 📈 Results
 
-| Model                  | Accuracy | Precision | Recall | F1 Score | ROC AUC |
-|------------------------|----------|-----------|--------|----------|---------|
-| XGBoost Classifier     | 0.999    | 0.999     | 0.999  | 0.999    | 0.999   |
-| Logistic Regression    | 0.947    | 0.949     | 0.947  | 0.947    | 0.987   |
-| Decision Tree          | 0.998    | 0.998     | 0.998  | 0.998    | 0.998   |
-| Random Forest          | 0.999    | 0.999     | 0.999  | 0.999    | 0.999   |
-| Gradient Boosting      | 0.999    | 0.999     | 0.999  | 0.999    | 0.999   |
-| Support Vector Machine | 0.988    | 0.988     | 0.988  | 0.988    | 0.997   |
-| K-Nearest Neighbors    | 0.996    | 0.996     | 0.996  | 0.996    | 0.999   |
+| Model                | Accuracy | Precision | Recall | F1 Score | ROC AUC |
+|----------------------|----------|-----------|--------|----------|---------|
+| Logistic Regression  | 0.214587 | 0.892726  | 0.214587 | 0.257776  | 0.906678 |
+| Decision Tree        | 0.995045 | 0.995319  | 0.995045 | 0.995147  | 0.964636 |
+| Random Forest        | 0.996426 | 0.996528  | 0.996426 | 0.996451  | 0.985362 |
+| K-Nearest Neighbors  | 0.986680 | 0.989769  | 0.986680 | 0.987941  | 0.960951 |
+| XGBoost              | 0.996832 | 0.996898  | 0.996832 | 0.996842  | 0.999868 |
+| Gradient Boosting    | 0.995695 | 0.995903  | 0.995695 | 0.995762  | 0.999814 |
 
 ---
 
