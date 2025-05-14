@@ -5,7 +5,7 @@
 ## 📌 Project Description
 This project focuses on classifying network traffic based on attack types using supervised machine learning models. It includes data exploration, preprocessing,Feature Engineering, SMOTE for class balancing, and a modeling pipeline with performance comparison across several classification algorithms.
 
-## 📂 Project Structure
+**📂 Project Structure**
 *Data Loading
 *Data Exploration
 *Data Visualization
