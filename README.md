@@ -1,37 +1,26 @@
 # ML-project
 
-# 🔍 Network Attack Classification - Machine Learning Project
+## 🔍 Network Attack Classification - Machine Learning Project
 
 ## 📌 Project Description
 This project focuses on classifying network traffic based on attack types using supervised machine learning models. It includes data exploration, preprocessing,Feature Engineering, SMOTE for class balancing, and a modeling pipeline with performance comparison across several classification algorithms.
 
 ## 📂 Project Structure
-machine-learning-project/
-│
-├── data/  cybersecurity project.csv
-├── notebooks/  Final Project.ipynb
-├── models/  Trained models Logistic regression,Random forest XGBoost, Random Forest)
-├── outputs/ # Graphs, reports, and evaluation results
-├── requirements.txt # Python dependencies
-├── README.md # Project overview and guide
-└── .gitignore # Ignore unnecessary files
+*Data Loading
+*Data Exploration
+*Data Visualization
+*Data Cleaning
+*Data Splitting
+*Model Building
+*Model Evaluation
 
-## 🧠 ML Pipeline
 
-1.  **Data Collection:** The RT-IoT2022 dataset was used, containing network traffic data from various IoT devices and simulated attacks.
-2.  **Data Cleaning & Preprocessing:**
-    * Handled missing values.
-    * Scaled numerical features using RobustScaler.
-    * Encoded categorical features (if any).
-     * Handled class imbalance using SMOTE.
-3.  **Exploratory Data Analysis (EDA):** Explored the dataset to understand feature distributions, relationships, and identify potential issues.
-4.  **Model Building:** Trained and compared several machine learning models:
+4.  **Model Used:** Trained and compared several machine learning models:
     * XGBoost Classifier
     * Logistic Regression
     * Decision Tree
     * Random Forest
     * Gradient Boosting
-    * Support Vector Machine (SVM)
     * K-Nearest Neighbors (KNN)
 5.  **Model Evaluation:** Evaluated the models using metrics such as:
     * Accuracy
@@ -68,12 +57,6 @@ The following table summarizes the performance of the trained models:
 
 ✅ **Best Model: XGBoost**
 
+**Requirements**
 
 
-## ▶ How to Run the Project
-
-1. **Clone the repository**
-
-```bash
-git clone https://github.com/yourusername/machine-learning-project.git
-cd machine-learning-project
