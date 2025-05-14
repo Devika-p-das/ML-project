@@ -6,23 +6,23 @@
 This project focuses on classifying network traffic based on attack types using supervised machine learning models. It includes data exploration, preprocessing,Feature Engineering, SMOTE for class balancing, and a modeling pipeline with performance comparison across several classification algorithms.
 
 **📂 Project Structure**:
-     * Data Loading
-     * Data Exploration
-     * Data Visualization
-     * Data Cleaning
-     * Data Splitting
-     * Model Building
-     * Model Evaluation
+     1.  Data Loading
+2.  Data Exploration
+3.  Data Visualization
+4.  Data Cleaning
+5.  Data Splitting
+6.  Model Building
+7.  Model Evaluation
 
 
-4.  **Model Used:** Trained and compared several machine learning models:
+  **Model Used:** Trained and compared several machine learning models:
     * XGBoost Classifier
     * Logistic Regression
     * Decision Tree
     * Random Forest
     * Gradient Boosting
     * K-Nearest Neighbors (KNN)
-5.  **Model Evaluation:** Evaluated the models using metrics such as:
+  **Model Evaluation Metrics:** Evaluated the models using metrics such as:
     * Accuracy
     * Precision
     * Recall
