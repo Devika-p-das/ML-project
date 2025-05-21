@@ -8,7 +8,8 @@ The RT-IoT2022, a proprietary dataset derived from a real-time IoT infrastructur
 
 ## 🔍 Project Description
 
-This project focuses on classifying network traffic based on attack types using supervised machine learning models. The workflow includes data exploration, preprocessing, feature engineering, SMOTE for class balancing, and a full modeling pipeline with performance comparisons across several classification algorithms.
+This project focuses on classifying IoT network traffic based on attack types using supervised machine learning models. The workflow includes data exploration, preprocessing, feature engineering, SMOTE for class balancing, and a complete modeling pipeline with performance comparisons across multiple classification algorithms.
+
 
 ---
 
@@ -67,14 +68,15 @@ Models were evaluated using the following metrics:
 
 ## 📈 Results
 
-| Model                | Accuracy | Precision | Recall | F1 Score | ROC AUC |
-|----------------------|----------|-----------|--------|----------|---------|
-| Logistic Regression  | 0.214587 | 0.892726  | 0.214587 | 0.257776  | 0.906678 |
-| Decision Tree        | 0.995045 | 0.995319  | 0.995045 | 0.995147  | 0.964636 |
-| Random Forest        | 0.996426 | 0.996528  | 0.996426 | 0.996451  | 0.985362 |
-| K-Nearest Neighbors  | 0.986680 | 0.989769  | 0.986680 | 0.987941  | 0.960951 |
-| XGBoost              | 0.996832 | 0.996898  | 0.996832 | 0.996842  | 0.999868 |
-| Gradient Boosting    | 0.995695 | 0.995903  | 0.995695 | 0.995762  | 0.999814 |
+| Model               | Accuracy  | Precision | Recall   | F1 Score | ROC AUC  |
+|---------------------|-----------|-----------|----------|----------|----------|
+| Logistic Regression | 0.177307  | 0.914390  | 0.177307 | 0.243616 | 0.739125 |
+| Decision Tree       | 0.995858  | 0.996111  | 0.995858 | 0.995953 | 0.961476 |
+| Random Forest       | 0.996589  | 0.996783  | 0.996589 | 0.996654 | 0.985502 |
+| KNN                 | 0.985705  | 0.988846  | 0.985705 | 0.986982 | 0.957713 |
+| XGBoost             | 0.996426  | 0.996590  | 0.996426 | 0.996487 | 0.999834 |
+| Gradient Boosting   | 0.995533  | 0.996163  | 0.995533 | 0.995775 | 0.999853 |
+
 
 ---
 
