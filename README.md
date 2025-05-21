@@ -21,7 +21,7 @@ This project focuses on classifying network traffic based on attack types using 
 5. Data Splitting  
 6. Model Building  
 7. Model Evaluation  
-8. Model Saving  
+ 
 
 ---
 
@@ -51,11 +51,7 @@ Models were evaluated using the following metrics:
 
 ---
 
-## 💾 Model Saving
 
-The best-performing model was saved for potential future use.
-
----
 
 ## 🛠 Tech Stack / Tools Used
 
